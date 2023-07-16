@@ -4102,22 +4102,6 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadc
 -- -1 545 000 THE STEAMVAULT
 INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadcast_text_id,comment) VALUES
 ('-1545000','Surge forth my pets!','10360','1','0','0','0','thespia SAY_SUMMON'),
-('-1545001','The depths will consume you!','10361','1','0','0','17696','thespia SAY_AGGRO_1'),
-('-1545002','Meet your doom, surface dwellers!','10362','1','0','0','17697','thespia SAY_AGGRO_2'),
-('-1545003','You will drown in blood!','10363','1','0','0','17698','thespia SAY_AGGRO_3'),
-('-1545004','To the depths of oblivion with you!','10364','1','0','0','17701','thespia SAY_SLAY_1'),
-('-1545005','For my lady and master!','10365','1','0','0','17702','thespia SAY_SLAY_2'),
-('-1545006','Our matron will be... the end of you.','10366','1','0','0','17704','thespia SAY_DEAD'),
-
-('-1545007','I''m bringin'' the pain!','10367','1','0','0','17719','mekgineer SAY_MECHANICS'),
-('-1545008','You''re in for a world o'' hurt!','10368','1','0','0','17716','mekgineer SAY_AGGRO_1'),
-('-1545009','Eat hot metal, scumbag!','10369','1','0','0','17717','mekgineer SAY_AGGRO_2'),
-('-1545010','I''ll come over there!','10370','1','0','0','17718','mekgineer SAY_AGGRO_3'),
-('-1545011','I''m bringin'' the pain!','10371','1','0','0','17719','mekgineer SAY_AGGRO_4'),
-('-1545012','You just got served, punk!','10372','1','0','0','17720','mekgineer SOUND_SLAY_1'),
-('-1545013','I own you!','10373','1','0','0','17721','mekgineer SOUND_SLAY_2'),
-('-1545014','Have fun dyin'', cupcake!','10374','1','0','0','17722','mekgineer SOUND_SLAY_3'),
-('-1545015','Mommy.','10375','1','0','0','17723','mekgineer SAY_DEATH'),
 
 ('-1545016','You deem yourselves worthy simply because you bested my guards? Our work here will not be compromised!','10390','1','0','0','17724','kalithresh SAY_INTRO'),
 ('-1545017','This is not nearly over...','10391','1','0','0','17725','kalithresh SAY_REGEN'),
@@ -4126,19 +4110,9 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadc
 ('-1545020','Ba''anthalso-dorei!','10394','1','0','0','17728','kalithresh SAY_AGGRO3'),
 ('-1545021','Squirm, surface filth!','10395','1','0','0','17729','kalithresh SAY_SLAY1'),
 ('-1545022','Ah ha ha ha ha ha ha!','10396','1','0','0','0','kalithresh SAY_SLAY2'),
-('-1545023','For her Excellency... for... Vashj!','10397','1','0','0','17730','kalithresh SAY_DEATH'),
-
-('-1545024','Enjoy the storm warm bloods!','0','1','0','0','19456','thespia SAY_CLOUD');
+('-1545023','For her Excellency... for... Vashj!','10397','1','0','0','17730','kalithresh SAY_DEATH');
 
 -- -1 546 000 THE UNDERBOG
-INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadcast_text_id,comment) VALUES
-('-1546000','I will end this quickly....','10385','1','0','0','17506','MUSELEK AGGRO_1'),
-('-1546001','We fight to the death!','10384','1','0','0','17505','MUSELEK AGGRO_2'),
-('-1546002','Acalah pek ecta!','10386','1','0','0','17507','MUSELEK AGGRO_3'),
-('-1546003','Beast! Obey me! Kill them at once!','10383','1','0','0','17511','MUSELEK COMMAND'),
-('-1546004','Krypta!','10387','1','0','0','17508','MUSELEK SLAY_1'),
-('-1546005','It is finished.','10388','1','0','0','17509','MUSELEK SLAY_2'),
-('-1546006','Well... done...','10389','1','0','0','17510','MUSELEK DEATH');
 
 -- -1 547 000 THE SLAVE PENS
 INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadcast_text_id,comment) VALUES
@@ -4393,59 +4367,8 @@ INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadc
 ('-1555028','Keep your minds focused for the days of reckoning are close at hand. Soon, the destroyer of worlds will return to make good on his promise. Soon the destruction of all that is will begin!','10522','1','0','0','0','vorpil SAY_INTRO');
 
 -- -1 556 000 SETHEKK HALLS
-INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadcast_text_id,comment) VALUES
-('-1556007','Ra-ak! Trinkets, yes. Pretty trinkets! Ak! Power, great power. Ra-kaw! Power in trinkets! Ak-caw!','10557','1','0','0','17769','ikiss SAY_INTRO'),
-('-1556008','Mmm, you make war on Ikiss? Aa-ak!','10554','1','0','0','17765','ikiss SAY_AGGRO_1'),
-('-1556009','Ikiss cut you, pretty -- ak-a-ak -- slice you, yes!','10555','1','0','0','17767','ikiss SAY_AGGRO_2'),
-('-1556010','Ak-a-ra-k! No escape for -- caw -- you!','10556','1','0','0','17768','ikiss SAY_AGGRO_3'),
-('-1556011','You die -- ka! Stay away from trinkets!','10558','1','0','0','17763','ikiss SAY_SLAY_1'),
-('-1556012','<squawk>','10559','1','0','0','0','ikiss SAY_SLAY_2'),
-('-1556013','Ikiss will not -- rak, rak -- die...','10560','1','0','0','17762','ikiss SAY_DEATH'),
-('-1556015','%s begins to channel arcane energy....','0','3','0','0','19738','ikiss EMOTE_ARCANE_EXP');
 
 -- -1 557 000 MANA TOMBS
-INSERT INTO script_texts (entry,content_default,sound,type,language,emote,broadcast_text_id,comment) VALUES
-('-1557000','What is this? You must forgive me, but I was not expecting company. As you can see, we are somewhat preoccupied right now. But no matter. As I am a gracious host, I will tend to you... personally.','10539','1','0','0','17784','shaffar SAY_INTRO'),
-('-1557001','We have not been properly introduced.','10541','1','0','0','17780','shaffar SAY_AGGRO_1'),
-('-1557002','An epic battle, how exciting!','10542','1','0','0','17781','shaffar SAY_AGGRO_2'),
-('-1557003','I''ve longed for a good adventure!','10543','1','0','0','17782','shaffar SAY_AGGRO_3'),
-('-1557004','It has been... entertaining.','10544','1','0','0','17779','shaffar SAY_SLAY_1'),
-('-1557005','And now we part company.','10545','1','0','0','17778','shaffar SAY_SLAY_2'),
-('-1557006','I have such fascinating things to show you.','10540','1','0','0','17783','shaffar SAY_SUMMON'),
-('-1557007','I must bid you... farewell.','10546','1','0','0','17777','shaffar SAY_DEAD'),
-
-('-1557008','I will feed... on your soul.','10561','1','0','0','17771','pandemonius SAY_AGGRO_1'),
-('-1557009','So... full of life.','10562','1','0','0','17772','pandemonius SAY_AGGRO_2'),
-('-1557010','Do not... resist.','10563','1','0','0','17773','pandemonius SAY_AGGRO_3'),
-('-1557011','Yes... I am... empowered.','10564','1','0','0','17774','pandemonius SAY_KILL_1'),
-('-1557012','More... I must have more.','10565','1','0','0','17775','pandemonius SAY_KILL_2'),
-('-1557013','To the Void... once more.','10566','1','0','0','17776','pandemonius SAY_DEATH'),
-('-1557014','%s shifts into the void...','0','3','0','0','21067','pandemonius EMOTE_DARK_SHELL'),
-
-('-1557015','This should''t take very long. Just watch my back as I empty these nether collectors.','0','0','0','0','17246','sha''heen SAY_ESCORT_START'),
-('-1557016','Fantastic! Let''s move on, shall we?','0','0','0','0','17248','sha''heen SAY_START'),
-('-1557017','Looking at these energy levels, Shaffar was set to make a killing!','0','0','0','28','17249','sha''heen SAY_FIRST_STOP'),
-('-1557018','That should do it...','0','0','0','0','17251','sha''heen SAY_FIRST_STOP_COMPLETE'),
-('-1557019','Hrm, now where is the next collector?','0','0','0','0','17252','sha''heen SAY_COLLECTOR_SEARCH'),
-('-1557020','Ah, there it is. Follow me, fleshling.','0','0','0','0','17254','sha''heen SAY_COLLECTOR_FOUND'),
-('-1557021','There can''t be too many more of these collectors. Just keep me safe as I do my job.','0','0','0','28','17255','sha''heen SAY_SECOND_STOP'),
-('-1557022','What do we have here? I thought you said the area was secure? This is now the third attack? If we make it out of here, I will definitely be deducting this from your reward. Now don''t just stand there, destroy them so I can get to that collector.','0','0','0','0','17256','sha''heen SAY_THIRD_STOP'),
-('-1557023','We''re close to the exit. I''ll let you rest for about thirty seconds, but then we''re out of here.','0','0','0','0','17258','sha''heen SAY_REST'),
-('-1557024','Are you ready to go?','0','0','0','0','17260','sha''heen SAY_READY_GO'),
-('-1557025','Ok break time is OVER. Let''s go!','0','0','0','0','17261','sha''heen SAY_BREAK_OVER'),
-('-1557026','Bravo! Bravo! Good show... I couldn''t convince you to work for me, could I? No, I suppose the needless slaughter of my employees might negatively impact your employment application.','0','1','0','0','17241','xiraxis SAY_SPAWN'),
-('-1557027','Your plan was a good one, Sha''heen, and you would have gotten away with it if not for one thing...','0','0','0','1','17243','xiraxis SAY_FINAL_STOP_1'),
-('-1557028','Oh really? And what might that be?','0','0','0','1','17263','sha''heen SAY_FINAL_STOP_2'),
-('-1557029','Never underestimate the other ethereal''s greed!','0','0','0','0','17244','xiraxis SAY_FINAL_STOP_3'),
-('-1557030','He was right, you know. I''ll have to take that tag-line for my own... It''s not like he''ll have a use for it anymore!','0','0','0','1','17264','sha''heen SAY_XIRAXIS_DEAD'),
-('-1557031','Thanks and good luck!','0','0','0','1','17265','sha''heen SAY_COMPLETE'),
-('-1557032','%s checks to make sure his body is intact.','0','2','0','0','17228','sha''heen EMOTE_TELEPORT'),
-('-1557033','You made it! Well done, $r. Now if you''ll excuse me, I have to get the rest of our crew inside.','0','0','0','1','17229','sha''heen SAY_SPAWN'),
-('-1557034','%s expertly manipulates the control panel.','0','2','0','28','17230','sha''heen EMOTE_PANEL'),
-('-1557035','Let''s not waste any time! Take anything that isn''t nailed down to the floor and teleport directly to Stormspire! Chop chop!','0','0','0','1','17231','sha''heen SAY_ESCORT_READY'),
-
-('-1557036','I... I am free! Ethereum were planning on torturing me until I gave in to their requests. I fear that, had you not come along, I would have surely given in to their torment.','0','0','0','1','20633','Ambassador SAY_RELEASED_1'),
-('-1557037','Know this, $r. Within Shaffar''s chambers at the end of these tombs rests a creature of unimaginable power. It is held in check by the power of the stasis chamber. You must return to Ameer before you venture further if you wish to destroy it!','0','0','0','1','20634','Ambassador SAY_RELEASED_2');
 
 -- -1 558 000 AUCHENAI CRYPTS
 
